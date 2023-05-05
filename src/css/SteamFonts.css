@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'SteamFontBold';
+    src: url('../fonts/Steam_Font_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SteamFontBlack';
+    src: url('../fonts/Steam_Font_Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SteamFontMedium';
+    src: url('../fonts/Steam_Font_Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SteamFont';
+    src: url('../fonts/Steam_Font.ttf') format('truetype');
+}

@@ -5,7 +5,7 @@ import { useSearchResults } from '../context/SearchResultsContext';
 import '../css/SearchBar.css'
 import axios from 'axios';
 
-const searchEndpoint = "http://localhost:80/search?query="
+const searchEndpoint = "https://api.tosdr.org/search/v4/?query="
 
 function SearchBar() {
     const [searchTerm, setSearchTerm] = useState('');

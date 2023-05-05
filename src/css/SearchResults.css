@@ -1,0 +1,57 @@
+.search-results {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-title {
+    margin-bottom: 1rem;
+    color: rgb(255, 253, 253);
+    font-family: 'SteamFontBold';
+  }
+  
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rem;
+  }
+  
+  .site-tile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  
+  .site-thumbnail {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+    background-color: #060606;
+  }
+  
+  .site-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    image-rendering: crisp-edges;
+  }
+  
+  .site-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  
+  .site-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(252, 251, 251);
+    margin: 0;
+    line-height: 1.4;
+    font-family: 'SteamFontBold';
+  }
+  
