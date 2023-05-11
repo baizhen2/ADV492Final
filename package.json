@@ -1,8 +1,8 @@
 {
-  "name": "code-final",
+  "name": "ADV492Final",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://baizhen2.github.io/ADV492Final",
+  "homepage": "http://baizhen2.github.io/",
   "dependencies": {
     "@mui/material": "^5.12.0",
     "@testing-library/jest-dom": "^5.16.5",
