@@ -1,13 +1,13 @@
 import HomePage from './components/HomePage';
 import SearchResults from './components/SearchResults';
 import Showcase from './components/Showcase';
-import { BrowserRouter , Routes, Route } from 'react-router-dom';
+import { HashRouter as Router , Routes, Route } from 'react-router-dom';
 import { SearchResultsProvider } from './context/SearchResultsContext';
 
 function App() {
     return (
         <div>
-            <BrowserRouter>
+            <Router>
                 <SearchResultsProvider>
                     <Routes>
                         <Route path="/" element={<HomePage />} />
@@ -15,7 +15,7 @@ function App() {
                         <Route path="/site/:siteId" element={<Showcase />} />
                     </Routes>
                 </SearchResultsProvider>
-            </BrowserRouter>
+            </Router>
         </div>
   );
 }
