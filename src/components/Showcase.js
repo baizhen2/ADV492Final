@@ -22,7 +22,7 @@ function Showcase() {
       }
   
       fetchSearchResults();
-    }, []);
+    }, [url]);
   
     return (
       <>
@@ -77,7 +77,6 @@ function Showcase() {
                         <p>This site has yet to be audited.</p>
                     )}
                 </div>
-                
             </div>
         )}
       </>
